@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>GTA6GameCase</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SemanticVersioning">
+      <HintPath>D:\Video_Games(Not_Steam)\SP Tarkov Newest - Copy\SPT_Runtime\SemanticVersioning.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPTarkov.Common">
+      <HintPath>D:\Video_Games(Not_Steam)\SP Tarkov Newest - Copy\SPT_Runtime\SPTarkov.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPTarkov.DI">
+      <HintPath>D:\Video_Games(Not_Steam)\SP Tarkov Newest - Copy\SPT_Runtime\SPTarkov.DI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SPTarkov.Server.Core">
+      <HintPath>D:\Video_Games(Not_Steam)\SP Tarkov Newest - Copy\SPT_Runtime\SPTarkov.Server.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WTT-ServerCommonLib">
+      <HintPath>D:\Video_Games(Not_Steam)\SP Tarkov Newest - Copy\SPT_Runtime\user\mods\WTT-ServerCommonLib\WTT-ServerCommonLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
